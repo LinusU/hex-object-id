@@ -1,0 +1,29 @@
+{
+  "name": "hex-object-id",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "LinusU/hex-object-id",
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "standard && node test.js && ts-readme-generator --check"
+  },
+  "dependencies": {
+    "crypto-random-hex": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "ts-readme-generator": "^0.7.3"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "keywords": [
+    "bson",
+    "id",
+    "mongo",
+    "mongodb",
+    "objectid",
+    "random"
+  ]
+}
